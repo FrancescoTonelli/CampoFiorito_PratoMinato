@@ -52,6 +52,17 @@ namespace PratoFiorito
                     i--;
                 }
             }
+
+            for (int n = 0; n < Griglia.GetLength(0); n++)
+            {
+                for (int m = 0; m < Griglia.GetLength(1); m++)
+                {
+                    if(Griglia[n, m] == -1)
+                    {
+
+                    }
+                }
+            }
         }
     }
 }
