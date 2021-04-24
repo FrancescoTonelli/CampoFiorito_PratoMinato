@@ -5,8 +5,72 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PratoFiorito"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="618.443" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="274,60,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn" Content="" HorizontalAlignment="Left" Margin="315,114,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <ComboBox x:Name="cmbChose" HorizontalAlignment="Left" Margin="67,207,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btn00_Copy" Content="" HorizontalAlignment="Left" Margin="372,114,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy1" Content="" HorizontalAlignment="Left" Margin="429,114,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy2" Content="" HorizontalAlignment="Left" Margin="486,114,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy3" Content="" HorizontalAlignment="Left" Margin="543,114,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy4" Content="" HorizontalAlignment="Left" Margin="258,114,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy5" Content="" HorizontalAlignment="Left" Margin="600,114,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy6" Content="" HorizontalAlignment="Left" Margin="657,114,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy7" Content="" HorizontalAlignment="Left" Margin="315,169,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy8" Content="" HorizontalAlignment="Left" Margin="372,169,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy9" Content="" HorizontalAlignment="Left" Margin="429,169,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy10" Content="" HorizontalAlignment="Left" Margin="486,169,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy11" Content="" HorizontalAlignment="Left" Margin="543,169,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy12" Content="" HorizontalAlignment="Left" Margin="258,169,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy13" Content="" HorizontalAlignment="Left" Margin="600,169,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy14" Content="" HorizontalAlignment="Left" Margin="657,169,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy15" Content="" HorizontalAlignment="Left" Margin="315,224,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy16" Content="" HorizontalAlignment="Left" Margin="372,224,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy17" Content="" HorizontalAlignment="Left" Margin="429,224,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy18" Content="" HorizontalAlignment="Left" Margin="486,224,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy19" Content="" HorizontalAlignment="Left" Margin="543,224,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy20" Content="" HorizontalAlignment="Left" Margin="258,224,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy21" Content="" HorizontalAlignment="Left" Margin="600,224,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy22" Content="" HorizontalAlignment="Left" Margin="657,224,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy23" Content="" HorizontalAlignment="Left" Margin="315,279,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy24" Content="" HorizontalAlignment="Left" Margin="372,279,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy25" Content="" HorizontalAlignment="Left" Margin="429,279,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy26" Content="" HorizontalAlignment="Left" Margin="486,279,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy27" Content="" HorizontalAlignment="Left" Margin="543,279,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy28" Content="" HorizontalAlignment="Left" Margin="258,279,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy29" Content="" HorizontalAlignment="Left" Margin="600,279,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy30" Content="" HorizontalAlignment="Left" Margin="657,279,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy31" Content="" HorizontalAlignment="Left" Margin="315,334,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy32" Content="" HorizontalAlignment="Left" Margin="372,334,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy33" Content="" HorizontalAlignment="Left" Margin="429,334,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy34" Content="" HorizontalAlignment="Left" Margin="486,334,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy35" Content="" HorizontalAlignment="Left" Margin="543,334,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy36" Content="" HorizontalAlignment="Left" Margin="258,334,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy37" Content="" HorizontalAlignment="Left" Margin="600,334,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy38" Content="" HorizontalAlignment="Left" Margin="657,334,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn01" Content="" HorizontalAlignment="Left" Margin="315,59,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn02" Content="" HorizontalAlignment="Left" Margin="372,59,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn03" Content="" HorizontalAlignment="Left" Margin="429,59,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn04" Content="" HorizontalAlignment="Left" Margin="486,59,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn05" Content="" HorizontalAlignment="Left" Margin="543,59,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00" Content="" HorizontalAlignment="Left" Margin="258,59,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn06" Content="" HorizontalAlignment="Left" Margin="600,59,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn07" Content="" HorizontalAlignment="Left" Margin="657,59,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy47" Content="" HorizontalAlignment="Left" Margin="315,389,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy48" Content="" HorizontalAlignment="Left" Margin="372,389,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy49" Content="" HorizontalAlignment="Left" Margin="429,389,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy50" Content="" HorizontalAlignment="Left" Margin="486,389,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy51" Content="" HorizontalAlignment="Left" Margin="543,389,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy52" Content="" HorizontalAlignment="Left" Margin="258,389,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy53" Content="" HorizontalAlignment="Left" Margin="600,389,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy54" Content="" HorizontalAlignment="Left" Margin="657,389,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy55" Content="" HorizontalAlignment="Left" Margin="315,444,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy56" Content="" HorizontalAlignment="Left" Margin="372,444,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy57" Content="" HorizontalAlignment="Left" Margin="429,444,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy58" Content="" HorizontalAlignment="Left" Margin="486,444,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy59" Content="" HorizontalAlignment="Left" Margin="543,444,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy60" Content="" HorizontalAlignment="Left" Margin="258,444,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy61" Content="" HorizontalAlignment="Left" Margin="600,444,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
+        <Button x:Name="btn00_Copy62" Content="" HorizontalAlignment="Left" Margin="657,444,0,0" VerticalAlignment="Top" Width="52" Height="50"/>
     </Grid>
 </Window>
