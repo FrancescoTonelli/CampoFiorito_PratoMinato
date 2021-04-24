@@ -7,26 +7,12 @@ namespace PratoFiorito
 {
     public class Campo
     {
-        private int[,] _griglia;
-
-        public int[,] Griglia = new int[8, 8];
+        public int[,] griglia = new int[8, 8];
 
         public Campo()
         {
             Riempi();
         }
-
-        /*public int[,] Griglia
-        {
-            get
-            {
-                return _griglia;
-            }
-            set
-            {
-                _griglia = Griglia;
-            }
-        }*/
 
         Random r = new Random();
 
@@ -34,11 +20,11 @@ namespace PratoFiorito
         {
             int i = 10;
 
-            for(int n = 0; n < Griglia.GetLength(0); n++)
+            for(int n = 0; n < griglia.GetLength(0); n++)
             {
-                for (int m = 0; m < Griglia.GetLength(1); m++)
+                for (int m = 0; m < griglia.GetLength(1); m++)
                 {
-                    Griglia[n, m] = 0;
+                    griglia[n, m] = 0;
                 }
             }
 
@@ -47,9 +33,9 @@ namespace PratoFiorito
                 int x = r.Next(0, 8);
                 int y = r.Next(0, 8);
 
-                if(Griglia[x,y] != -1)
+                if(griglia[x,y] != -1)
                 {
-                    Griglia[x, y] = -1;
+                    griglia[x, y] = -1;
                     i--;
                 }
             }
@@ -58,54 +44,54 @@ namespace PratoFiorito
             {
                 for (int m = 0; m < 8; m++)
                 {
-                    if(Griglia[n, m] == -1)
+                    if(griglia[n, m] == -1)
                     {
                         if (n - 1 >= 0)
                         {
                             if (m - 1 >= 0)
                             {
-                                if(Griglia[n - 1, m - 1]!=-1)
-                                    Griglia[n - 1, m - 1]++;
+                                if(griglia[n - 1, m - 1]!=-1)
+                                    griglia[n - 1, m - 1]++;
                             }
 
                             if (m + 1 < 8)
                             {
-                                if (Griglia[n - 1, m + 1] != -1)
-                                    Griglia[n - 1, m + 1]++;
+                                if (griglia[n - 1, m + 1] != -1)
+                                    griglia[n - 1, m + 1]++;
                             }
 
-                            if (Griglia[n - 1, m] != -1)
-                                Griglia[n - 1, m]++;
+                            if (griglia[n - 1, m] != -1)
+                                griglia[n - 1, m]++;
                         }
 
                         if (m - 1 >= 0)
                         {
-                            if (Griglia[n, m - 1] != -1)
-                                Griglia[n, m - 1]++;
+                            if (griglia[n, m - 1] != -1)
+                                griglia[n, m - 1]++;
                         }
 
                         if (m + 1 < 8)
                         {
-                            if (Griglia[n, m + 1] != -1)
-                                Griglia[n, m + 1]++;
+                            if (griglia[n, m + 1] != -1)
+                                griglia[n, m + 1]++;
                         }
 
                         if (n + 1 < 8)
                         {
                             if (m - 1 >= 0)
                             {
-                                if (Griglia[n + 1, m - 1] != -1)
-                                    Griglia[n + 1, m - 1]++;
+                                if (griglia[n + 1, m - 1] != -1)
+                                    griglia[n + 1, m - 1]++;
                             }
 
                             if (m + 1 < 8)
                             {
-                                if (Griglia[n + 1, m + 1] != -1)
-                                    Griglia[n + 1, m + 1]++;
+                                if (griglia[n + 1, m + 1] != -1)
+                                    griglia[n + 1, m + 1]++;
                             }
 
-                            if (Griglia[n + 1, m] != -1)
-                                Griglia[n + 1, m]++;
+                            if (griglia[n + 1, m] != -1)
+                                griglia[n + 1, m]++;
                         }
                     }
                 }
@@ -120,14 +106,14 @@ namespace PratoFiorito
             {
                 for (int m = 0; m < 8; m++)
                 {
-                    if (m == 0 && Griglia[n, m]!=-1)
+                    if (m == 0 && griglia[n, m]!=-1)
                     {
                         righe[n] += " ";
                     }
-                    righe[n] += Griglia[n, m];
+                    righe[n] += griglia[n, m];
                     if (!(m == 7))
                     {
-                        if (Griglia[n, m+1]==-1)
+                        if (griglia[n, m+1]==-1)
                         {
                             righe[n] += " ";
                         }

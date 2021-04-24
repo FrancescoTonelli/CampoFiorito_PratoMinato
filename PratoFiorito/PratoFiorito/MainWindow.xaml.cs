@@ -26,8 +26,32 @@ namespace PratoFiorito
         public MainWindow()
         {
             InitializeComponent();
-            campo = new Campo();
         }
 
+        public void Start()
+        {
+            btn00.Content = "";
+
+            campo = new Campo();
+            cmbChose.Items.Clear();
+            cmbChose.Items.Add("Indicatore");
+            cmbChose.Items.Add("Bandierina");
+        }
+
+        private void btn00_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            char[] x = b.Name.ToCharArray();
+            int c = int.Parse(x[3].ToString());
+            int z = int.Parse(x[4].ToString());
+            if(campo.griglia[c, z] != -1)
+            {
+                b.Content = campo.griglia[c, z];
+            }
+            else
+            {
+                b.Background = Brushes.Red;
+            }
+        }
     }
 }
