@@ -1,0 +1,15 @@
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\bin\Debug\PratoFiorito.exe.config
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\bin\Debug\PratoFiorito.exe
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\bin\Debug\PratoFiorito.pdb
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\obj\Debug\PratoFiorito.csprojAssemblyReference.cache
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\obj\Debug\MainWindow.g.cs
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\obj\Debug\App.g.cs
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\obj\Debug\PratoFiorito_MarkupCompile.cache
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\obj\Debug\PratoFiorito_MarkupCompile.lref
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\obj\Debug\MainWindow.baml
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\obj\Debug\PratoFiorito.g.resources
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\obj\Debug\PratoFiorito.Properties.Resources.resources
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\obj\Debug\PratoFiorito.csproj.GenerateResource.cache
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\obj\Debug\PratoFiorito.csproj.CoreCompileInputs.cache
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\obj\Debug\PratoFiorito.exe
+C:\Users\tonbr\Desktop\CampoFiorito_PratoMinato\PratoFiorito\PratoFiorito\obj\Debug\PratoFiorito.pdb
