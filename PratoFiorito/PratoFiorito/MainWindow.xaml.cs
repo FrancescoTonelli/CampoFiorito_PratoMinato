@@ -26,6 +26,9 @@ namespace PratoFiorito
 
         Campo campo;
         Image immBomba;
+
+        int bandiere;
+
         Image immFlag;
 
         public MainWindow()
@@ -119,6 +122,8 @@ namespace PratoFiorito
             cmbChose.Items.Clear();
             cmbChose.Items.Add("Indicatore");
             cmbChose.Items.Add("Bandierina");
+
+            bandiere = 0;
         }
 
         private void btn00_Click(object sender, RoutedEventArgs e)
@@ -141,7 +146,7 @@ namespace PratoFiorito
             }
             else if(cmbChose.SelectedIndex >= 0 && cmbChose.SelectedItem.ToString() == "Bandierina")
             {
-                b.Content = immFlag;
+                
             }
         }
     }
